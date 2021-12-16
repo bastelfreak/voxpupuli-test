@@ -653,4 +653,4 @@ RSpec/SubjectDeclaration: # new in 2.5
 RSpec/Rails/AvoidSetupHook: # new in 2.4
   Enabled: true
 RSpec/ImplicitSubject:
-  Enabled: false
+  EnforcedStyle: single_line_only
