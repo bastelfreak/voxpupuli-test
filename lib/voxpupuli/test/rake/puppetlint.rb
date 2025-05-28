@@ -15,7 +15,6 @@ PuppetLint.configuration.ignore_paths << 'pkg/**/*.pp'
 PuppetLint.configuration.ignore_paths << 'spec/**/*.pp'
 PuppetLint.configuration.ignore_paths << 'tests/**/*.pp'
 PuppetLint.configuration.disable_140chars
-PuppetLint.configuration.disable_autoloader_layout
 PuppetLint.configuration.disable_documentation
 PuppetLint.configuration.disable_single_quote_string_with_variables
 PuppetLint::RakeTask.new(:lint)
